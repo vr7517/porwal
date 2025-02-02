@@ -67,9 +67,10 @@
               <!-- Footer Contact Item Start -->
               <div class="footer-contact-item">
                   <div class="icon-box">
-                      <img src="images/icon-phone.svg" alt="">
-                  </div>
-                  <div class="footer-contact-content">
+                      {{-- <img src="images/icon-phone.svg" alt=""> --}}
+                      <i class="bi bi-dribbble"></i>
+                    </div>
+                    <div class="footer-contact-content">
                       <p>+1 (213) 465 789</p>
                   </div>
               </div>
@@ -94,9 +95,9 @@
           <div class="footer-social-link">
               <hr>
               <ul>
-                  <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="bi bi-dribbble"></i></a></li>
+                  <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                  <li><a href="#"><i class="bi bi-instagram"></i></a></li>
               </ul>
               <hr>
           </div>
@@ -110,7 +111,7 @@
           <div class="col-md-6">
               <!-- Footer Copyright Start -->
               <div class="footer-copyright-text">
-                  <p>Copyright © 2024 All Rights Reserved.</p>
+                  <p>Copyright © 2025 All Rights Reserved.</p>
               </div>
               <!-- Footer Copyright End -->
           </div>
