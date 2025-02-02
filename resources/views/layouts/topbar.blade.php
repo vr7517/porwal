@@ -4,8 +4,11 @@
                     <!-- Topbar Contact Information Start -->
                     <div class="topbar-contact-info">
                         <ul>
-                            <li><a href="#"><i class="fa-solid fa-clock"></i> <span>Working Hour:</span> 08:00am to 09:00pm</a></li>
-                            <li><a href="#"><i class="fa-solid fa-envelope"></i> <span>Email:</span> info@domainname.com</a></li>
+                            <li><a href="#">
+                                
+
+                                <i class="bi bi-clock"></i> <span>Working Hour:</span> 08:00am to 09:00pm</a></li>
+                            <li><a href="#"><i class="bi bi-envelope"></i> <span>Email:</span> info@domainname.com</a></li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -17,9 +20,9 @@
                         <!-- Header Social Icons Start -->
                         <div class="topbar-social-icons">
                             <ul>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                             </ul>
                         </div>
                         <!-- Header Social Icons End -->
