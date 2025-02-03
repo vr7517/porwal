@@ -11,7 +11,7 @@
 
               <!-- About Footer Content Start -->
               <div class="about-footer-content">
-                  <p>We offer a wide range of healthcare services to meet your needs.</p>
+                  <p>Your Secure Healthcare Solutions Partner</p>
               </div>           
               <!-- About Footer Content End -->
           </div>
@@ -21,13 +21,13 @@
       <div class="col-lg-2 col-md-4 col-6">
           <!-- Footer Links Start -->
           <div class="footer-links">
-              <h3>healthcare</h3>
+              <h3>Products</h3>
               <ul>
-                  <li><a href="doctors.html">doctors</a></li>
-                  <li><a href="#">diagnostics</a></li>
-                  <li><a href="#">caregiver</a></li>
-                  <li><a href="#">hospitality</a></li>
-                  <li><a href="#">emergency</a></li>
+                  <li><a href="doctors.html">Technology</a></li>
+                  <li><a href="#">Industrial</a></li>
+                  <li><a href="#">Advisory</a></li>
+                  <li><a href="#">Construction</a></li>
+                  {{-- <li><a href="#">emergency</a></li> --}}
               </ul>
           </div>
           <!-- Footer Links End -->
@@ -40,9 +40,9 @@
               <ul>
                   <li><a href="index.html">home</a></li>
                   <li><a href="about.html">about us</a></li>
-                  <li><a href="faqs.html">faqs</a></li>
-                  <li><a href="blog.html">blogs</a></li>
-                  <li><a href="projects.html">facilities</a></li>
+                  <li><a href="faqs.html">services</a></li>
+                  <li><a href="blog.html">gallary</a></li>
+                  <li><a href="projects.html">contact</a></li>
               </ul>
           </div>
           <!-- Footer Links End -->
@@ -71,7 +71,7 @@
                       <i class="bi bi-dribbble"></i>
                     </div>
                     <div class="footer-contact-content">
-                      <p>+1 (213) 465 789</p>
+                      <p>+91 9800994949</p>
                   </div>
               </div>
               <!-- Footer Contact Item End -->
@@ -82,7 +82,7 @@
                       <img src="images/icon-location.svg" alt="">
                   </div>
                   <div class="footer-contact-content">
-                      <p>2464 Royal Ln. Mesa, New Jersey</p>
+                      <p>Jln Cempaka Wangi No 22, Jakarta - Indonesia</p>
                   </div>
               </div>
               <!-- Footer Contact Item End -->

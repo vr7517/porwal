@@ -83,9 +83,9 @@
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp">
                                 <div class="icon-box">
-                                    
-                                    <img src="{{asset('assets/images/icon-about-info-1.svg')}}" alt="">
-                                    
+
+                                    <img src="{{ asset('assets/images/icon-about-info-1.svg') }}" alt="">
+
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>patient-centered care</h3>
@@ -98,7 +98,7 @@
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="icon-box">
-                                    <img src="{{asset('assets/images/icon-about-info-2.svg')}}" alt="">
+                                    <img src="{{ asset('assets/images/icon-about-info-2.svg') }}" alt="">
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>specialist doctors</h3>
@@ -111,7 +111,7 @@
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="icon-box">
-                                    <img src="{{asset('assets/images/icon-about-info-3.svg')}}" alt="">
+                                    <img src="{{ asset('assets/images/icon-about-info-3.svg') }}" alt="">
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>24 hours service</h3>
@@ -147,7 +147,7 @@
                         <div class="about-img-2">
                             <figure class="image-anime">
                                 <img src="{{ asset('assets/images/about-img-2.jpg') }}" alt="">
-                                <h3>video call support</h3>
+                                <h3>Professionals Team</h3>
                             </figure>
                         </div>
                         <!-- About Image 2 End -->
@@ -157,7 +157,7 @@
                             <h3>Opening hours</h3>
                             <ul>
                                 <li><span>Mon To Fri</span> 09:30 - 07:30</li>
-                                <li><span>Saturday</span> 10:30 - 5:00</li>
+                                <li><span>Saturday</span> Closed</li>
                                 <li><span>Sunday</span> Closed</li>
                             </ul>
 
@@ -182,7 +182,8 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">our services</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Solution Provider for Medical Devices and Implants​</h2>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Solution Provider for Medical Devices and
+                            Implants​</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -197,7 +198,7 @@
                             <!-- Service Item Box Start -->
                             <div class="service-item-box">
                                 <div class="icon-box">
-                                    <img src="images/icon-service-1.svg" alt="">
+                                    <img src="{{ asset('assets/images/icon-service-1.svg') }}" alt="">
                                 </div>
                                 <div class="service-item-content">
                                     <h3>
@@ -216,8 +217,8 @@
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <p>Our neurology department provides expert care for conditions affecting the brain, spine, and
-                                nervous system</p>
+                            <p>Experts with extensive knowledge of medical devices and implants make up our team. We are
+                                aware of how important these instruments are to patient care.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -242,7 +243,7 @@
                             <!-- Service Item Box Start -->
                             <div class="service-item-box">
                                 <div class="icon-box">
-                                    <img src="images/icon-service-2.svg" alt="">
+                                    <img src="{{ asset('assets/images/icon-service-2.svg') }}" alt="">
                                 </div>
                                 <div class="service-item-content">
                                     <h3>Trusted Partnerships</h3>
@@ -260,8 +261,8 @@
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <p>Our neurology department provides expert care for conditions affecting the brain, spine, and
-                                nervous system</p>
+                            <p>We guarantee that you will only receive the best thanks to our solid partnerships with
+                                well-known international brands like Natus, Baxter, Terumo, and Biocomposites.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -286,7 +287,7 @@
                             <!-- Service Item Box Start -->
                             <div class="service-item-box">
                                 <div class="icon-box">
-                                    <img src="images/icon-service-3.svg" alt="">
+                                    <img src="{{ asset('assets/images/icon-service-3.svg') }}" alt="">
                                 </div>
                                 <div class="service-item-content">
                                     <h3>Customer-Centric Approach</h3>
@@ -304,8 +305,8 @@
 
                         <!-- Service Body Start -->
                         <div class="service-body">
-                            <p>Our neurology department provides expert care for conditions affecting the brain, spine, and
-                                nervous system</p>
+                            <p>At the center of everything we do are your needs. To deliver specialized solutions that
+                                improve your practice and patient outcomes, we collaborate closely with you.</p>
                         </div>
                         <!-- Service Body End -->
 
@@ -325,7 +326,8 @@
                 <div class="col-lg-12">
                     <!-- More Services Content Start -->
                     <div class="more-service-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">FPorwal Group: Channel Partner in medical equipment and implant technology, committed to improving healthcare outcomes.​</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Porwal Group: Channel Partner in medical equipment
+                            and implant technology, committed to improving healthcare outcomes.​</p>
                         <a href="services.html" class="btn-default wow fadeInUp" data-wow-delay="0.5s">view all
                             services</a>
                     </div>
@@ -344,10 +346,28 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">why choose us</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Why patients trust us with their care</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Our commitment to excellence, compassion, and
-                            personalized treatment has earned the trust of countless patients. Discover what sets our care
-                            apart. Discover what sets our care apart.</p>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Why Choose Porwal Group?</h2>
+                        {{-- <div class="list-group"> --}}
+                        <p class="list-group-item wow fadeInUp" data-wow-delay="0.25s">
+                            <i class="bi bi-star-fill me-2"></i>At Porwal Group, we work with you to provide excellent
+                            healthcare—we're not just a supplier. Here's what makes us unique:
+                        </p>
+                        {{-- <ul>
+                                <li>PD is being run by team ofprofessionals.</li>
+                                <li>We are a trusted name for corporate and leading hospitals in MP & CG.</li>
+                                <li>Complete solution provider for super specialty medical devices in MP & CG region.</li>
+                                <li>Acquiring leadership in supporting genuine & technology driven product portfolios.</li>
+                            </ul> --}}
+
+                        {{-- </div> --}}
+
+                        <p class="wow fadeInUp" data-wow-delay="0.25s"> <span class="flex font-weight-bolder">Unmatched
+                                Quality: </span> We provide premium implants and medical gear from reputable manufacturers.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Expertise: Our team’s vast knowledge and experience
+                            will help you make decisions.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Nationwide Reach: We guarantee access to
+                            high-quality healthcare solutions by being present in every region of India. Client-focused</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -355,12 +375,19 @@
                 <div class="col-lg-5">
                     <!-- Why Choose List Start -->
                     <div class="why-choose-list wow fadeInUp">
-                        <ul>
-                            <li>We offer flexible hours to fit your busy schedule.</li>
-                            <li>Team is committed to making you feel comfortable.</li>
-                            <li>We ensure you receive prompt and effective care.</li>
-                            <li>Helping you manage your health at every stage of life.</li>
-                        </ul>
+                        <p class="list-group-item wow fadeInUp" data-wow-delay="0.25s">
+                            <i class="bi bi-star me-2"></i> At Porwal Group, Our one and only goal is to equip medical
+                            professionals with the most cutting-edge and dependable implants and devices. Our steadfast
+                            commitment to quality, innovation, and client satisfaction has allowed us to become a dominant
+                            force in the medical equipment supply sector.
+                        </p>
+                        <br>
+                        <p class="list-group-item wow fadeInUp" data-wow-delay="0.25s">
+                            <i class="bi bi-star me-2"></i>We cordially encourage you to peruse our vast selection of
+                            HYSTEROSCOPY apparatus, VENTILATORS, CAUTERY equipment, LAPAROSCOPY systems, and other items.
+                            Join forces with Porwal Group, and we can jointly influence the direction of healthcare.
+                        </p>
+
                     </div>
                     <!-- Why Choose List End -->
                 </div>
@@ -373,7 +400,10 @@
                         <!-- Intro Image Start -->
                         <div class="intro-video-image">
                             <figure>
-                                <img src="images/intro-video-bg.jpg" alt="">
+                                <video autoplay muted loop id="myVideo">
+                                    <source src="https://demo.awaikenthemes.com/assets/videos/dispnsary-video.mp4"
+                                        type="video/mp4">
+                                </video>
                             </figure>
                         </div>
                         <!-- Intro Image End -->
@@ -381,7 +411,8 @@
                         <!-- Video Play Button Start -->
                         <div class="video-play-button">
                             <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"
-                                data-cursor-text="Play"><img src="images/icon-play.svg" alt=""></a>
+                                data-cursor-text="Play"><img src="{{ asset('assets/images/icon-play.svg') }}"
+                                    alt="video"></a>
                         </div>
                         <!-- Video Play Button End -->
 
@@ -430,7 +461,7 @@
     </div>
     <!-- Intro Video Section End -->
 
-    <!-- We Work Section Start -->
+    {{-- <!-- We Work Section Start -->
     <div class="we-work bg-section">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -438,10 +469,10 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">how we work</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">We work to achieve better health outcomes
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Discover Our All-Inclusive
+                            Medical Solutions
                         </h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">We are committed to improving health outcomes
-                            through personalized care, innovative treatments, and a focus on prevention.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Look at our extensive selection of implants and medical equipment built for the best possible healthcare delivery.</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -455,7 +486,7 @@
                         <div class="work-step-item">
                             <div class="work-step-image">
                                 <figure class="image-anime">
-                                    <img src="images/work-step-img-1.jpg" alt="">
+                                    <img src="{{asset('assets/images/work-step-img-1.jpg')}} alt="">
                                 </figure>
 
                                 <div class="work-step-no">
@@ -528,7 +559,103 @@
             </div>
         </div>
     </div>
-    <!-- We Work Section End -->
+    <!-- We Work Section End --> --}}
+
+
+
+    <!-- Our Facility Section Start -->
+    <div class="our-facility bg-section">
+        <div class="container">
+            <div class="row section-row">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">about us</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Professionals dedicated to your health</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Our team of skilled professionals is committed to
+                            providing personalized, compassionate care. With a focus.</p>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <!-- Facility Item Start -->
+                    <div class="our-facility-item wow fadeInUp">
+                        <div class="icon-box">
+                            <img src="{{ asset('assets/images/icon-facility-1.svg') }}" alt="">
+                        </div>
+
+                        <div class="our-facility-content">
+                            <h3>modern equipment</h3>
+                            <p>Our mission is to deliver modern equipment that ensures efficiency, reliability, and superior
+                                performance for.</p>
+                        </div>
+                    </div>
+                    <!-- Facility Item End -->
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- Facility Item Start -->
+                    <div class="our-facility-item wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="icon-box">
+                            <img src="{{ asset('assets/images/icon-facility-2.svg') }}" alt="">
+                        </div>
+
+                        <div class="our-facility-content">
+                            <h3>highly qualified doctor</h3>
+                            <p>We ensure patient care through highly qualified doctors, offering expertise, trust, and
+                                personalized attention.</p>
+                        </div>
+                    </div>
+                    <!-- Facility Item End -->
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <!-- Facility Item Start -->
+                    <div class="our-facility-item wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="icon-box">
+                            <img src="{{ asset('assets/images/icon-facility-3.svg') }}" alt="">
+                        </div>
+
+                        <div class="our-facility-content">
+                            <h3>Medical Solution</h3>
+                            <p>Companies like Medtronic, DePuy Synthes, and Terumo offer a wide range of high-quality
+                                medical devices and implants. </p>
+                        </div>
+                    </div>
+                    <!-- Facility Item End -->
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <!-- Facility Item Start -->
+                    <div class="our-facility-item wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="icon-box">
+                            <img src="{{ asset('assets/images/icon-facility-3.svg') }}" alt="">
+                        </div>
+
+                        <div class="our-facility-content">
+                            <h3>Consultation</h3>
+                            <p>Their products are backed by advanced research, innovation,
+                                and trusted reliability.</p>
+                        </div>
+                    </div>
+                    <!-- Facility Item End -->
+                </div>
+
+                <div class="col-md-12">
+                    <!-- Our facility Footer Start -->
+                    <div class="our-facility-footer wow fadeInUp" data-wow-delay="0.75s">
+                        <p><span>free</span>Let's make something great work together. <a href="contact.html">get free
+                                quote</a></p>
+                    </div>
+                    <!-- Our facility Footer End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Facility Section End -->
+
 
     <!-- Our Excellence Section Start -->
     <div class="our-excellence">
@@ -538,9 +665,9 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp">our numbers</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">By the numbers: excellence in health</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Excellence in healthcare is our standard, and our
-                            numbers back it up. From patient satisfaction rates to successful treatment outcomes.</p>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Live Saved</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Entire Nationwide Protection, Supplying Superior
+                            Medical Solutions to Every Indian Region</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -584,8 +711,7 @@
         </div>
     </div>
     <!-- Our Excellence Section End -->
-
-    <!-- Our Faqs Section Start -->
+    {{-- <!-- Our Faqs Section Start -->
     <div class="our-faqs bg-section">
         <div class="container">
             <div class="row">
@@ -732,9 +858,9 @@
             </div>
         </div>
     </div>
-    <!-- Our Faqs Section End -->
+    <!-- Our Faqs Section End --> --}}
 
-    <!-- Our Team Section Start -->
+    {{-- <!-- Our Team Section Start -->
     <div class="our-team">
         <div class="container">
             <div class="row section-row">
@@ -897,9 +1023,9 @@
             </div>
         </div>
     </div>
-    <!-- Our Team Section End -->
+    <!-- Our Team Section End --> --}}
 
-    <!-- Our Health Section Start -->
+    {{-- <!-- Our Health Section Start -->
     <div class="our-health">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -1001,7 +1127,7 @@
             </div>
         </div>
     </div>
-    <!-- Our Health Section End -->
+    <!-- Our Health Section End --> --}}
 
     <!-- CTA Section Start -->
     <div class="cta-section bg-section">
@@ -1010,7 +1136,7 @@
                 <div class="col-lg-4 col-md-3 col-6 order-lg-1 order-md-1 order-2">
                     <!-- CTA Box img 1 Start -->
                     <div class="cta-img-1">
-                        <img src="images/cta-img-1.png" alt="">
+                        <img src="{{ asset('assets/images/cta-img-1.png') }}" alt="">
                     </div>
                     <!-- CTA Box img 1 End -->
                 </div>
@@ -1042,7 +1168,7 @@
                 <div class="col-lg-4 col-md-3 col-6 order-lg-3 order-md-3 order-3">
                     <!-- CTA Box img 2 Start -->
                     <div class="cta-img-2">
-                        <img src="images/cta-img-2.png" alt="">
+                        <img src="{{ asset('assets/images/cta-img-2.png') }}" alt="">
                     </div>
                     <!-- CTA Box img 2 End -->
                 </div>
@@ -1057,26 +1183,34 @@
             <div class="row section-row">
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
-                    <div class="section-title">
+                    <div class="section-title mw-100">
                         <h3 class="wow fadeInUp">Testimonials</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Patient stories of care and recovery</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Discover inspiring stories of recovery and healing
-                            from those we've had the privilege to serve.</p>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Channel Partner of Pioneers In The Industry
+                        </h2>
+                        <p class="wow fadeInUp " data-wow-delay="0.25s">Porwal Group is a channel partner ,who works with
+                            well known medical devices and implants companies like Medtronic, DePuy Synthes (companies of
+                            gohnson gohnson), Baxter,, Terumo, Genworks, Pentax Medical, Belmont Medical, Natus,
+                            Biocomposites ,an extensive and high-quality range of medical devices and implants, supported by
+                            the state-of-the-art research, ingenuity, and dependability that these industry titans stand
+                            for. We are dedicated to working together to improve patient outcomes and raise the bar for
+                            healthcare standards. View our portfolio to feel the confidence that results from a
+                            collaboration based on quality and reliability.</p>
                     </div>
                     <!-- Section Title End -->
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-12">
                     <!-- Testimonial Slider Start -->
                     <div class="testimonial-slider">
-                        <div class="swiper">
+                        <div class="swiper ">
                             <div class="swiper-wrapper" data-cursor-text="Drag">
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <div class="testimonial-rating">
+
+                                        {{-- <div class="testimonial-rating">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
@@ -1087,17 +1221,24 @@
                                         <div class="testimonial-content">
                                             <p>My first appointment, but the staff was so welcoming. They took the time to
                                                 listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
+                                        </div> --}}
 
-                                        <div class="testimonial-footer">
+                                        <div class="testimonial-footer ">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-1.jpg" alt="">
+                                                    <img src="{{ asset('assets/images/partner-1.jpg') }}" alt=""
+                                                        width="80px">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>Brooklyn simmons</h3>
-                                                <p>orthodontics</p>
+                                                <h3> TERUMO</h3>
+                                                <p>ANGIOPLASTY</p>
+                                                <ul>
+                                                    <li>Stents</li>
+                                                    <li>Catheters</li>
+                                                    <li>Ballons</li>
+                                                    <li>Assessories</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1107,28 +1248,75 @@
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
 
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to
-                                                listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
 
-                                        <div class="testimonial-footer">
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
+                                                    <img src="{{ asset('assets/images/partner-2.jpg') }}" alt=""
+                                                        width="80px">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>monika roy</h3>
-                                                <p>Dental hygienist</p>
+                                                <h3> MEDTRONIC</h3>
+                                                <p>MEUROVASCULAR PROCEDURE</p>
+                                                <ul>
+                                                    <li>ANEURYSM COIL, GUIDEWIRE, MICRO CATHETERS</li>
+                                                    <li>AVM EMBOLIZATION LIQUID, GUIDWIRE AND CAHETERS</li>
+                                                    <li>MECHANICAL THROMBECTOMY STENT, ASPIRATION CATHETERS</li>
+                                                    <li>FLOW DIVERTER</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="{{ asset('assets/images/partner-3.jpg') }}" alt=""
+                                                        width="80px">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3> MEDTRONIC</h3>
+                                                <p>LAPAROSCOPIC</p>
+                                                <ul>
+                                                    <li>HERNIA MASHES</li>
+                                                    <li>TRACKERS</li>
+                                                    <li>BRIARTRIC PROCEDURE HAROWARE</li>
+                                                    <li>SUTURE</li>
+                                                    <li>STAPLERS</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1138,28 +1326,35 @@
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
 
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to
-                                                listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
 
-                                        <div class="testimonial-footer">
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-3.jpg" alt="">
+                                                    <img src="{{ asset('assets/images/partner-4.jpg') }}" alt=""
+                                                        width="80px">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>albert flores</h3>
-                                                <p>senior dentist</p>
+                                                <h3> MEDTRONIC EV3</h3>
+                                                <p>CAROTID PROCEDURE</p>
+                                                <ul>
+                                                    <li>CAROTID STENT</li>
+                                                    <li>ACCESSORIES</li>
+
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -1169,33 +1364,120 @@
                                 <!-- Testimonial Slide Start -->
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
 
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to
-                                                listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
 
-                                        <div class="testimonial-footer">
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
                                             <div class="author-image">
                                                 <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
+                                                    <img src="{{ asset('assets/images/partner-5.jpg') }}" alt=""
+                                                        width="80px">
                                                 </figure>
                                             </div>
                                             <div class="author-content">
-                                                <h3>monika roy</h3>
-                                                <p>Dental hygienist</p>
+                                                <h3> BAXTER</h3>
+                                                <p>CAPD/APD</p>
+                                                <ul>
+                                                    <li>DIALYSIS FLUID
+                                                    </li>
+                                                    <li>ALL ACCESSORIES</li>
+
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <!-- Testimonial Slide End -->
+
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="{{ asset('assets/images/partner-6.jpg') }}" alt=""
+                                                        width="80px">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3> DEPUY SYNTHES</h3>
+                                                <p>TOTAL HIP REPLACEMENT</p>
+                                                <ul>
+                                                    <li>DURALOC MOP</li>
+                                                    <li>PINNACLE COP</li>
+                                                    <li>SOLUTION</li>
+                                                    <li>BIPOLAR</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
+
+                                <!-- Testimonial Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="testimonial-item">
+
+                                        {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                        <div class="testimonial-footer ">
+                                            <div class="author-image">
+                                                <figure class="image-anime">
+                                                    <img src="{{ asset('assets/images/partner-7.jpg') }}" alt=""
+                                                        width="80px">
+                                                </figure>
+                                            </div>
+                                            <div class="author-content">
+                                                <h3> TERUMO</h3>
+                                                <p>ANGIOPLASTY</p>
+                                                <ul>
+                                                    <li>Stents</li>
+                                                    <li>Catheters</li>
+                                                    <li>Ballons</li>
+                                                    <li>Assessories</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Testimonial Slide End -->
+
                             </div>
                             <div class="testimonial-btn">
                                 <div class="testimonial-btn-prev"></div>
@@ -1209,7 +1491,7 @@
         </div>
     </div>
     <!-- Our Testimonial End -->
-
+    {{-- 
     <!-- Latest News Section Start -->
     <div class="latest-news">
         <div class="container">
@@ -1353,7 +1635,7 @@
             </div>
         </div>
     </div>
-    <!-- Latest News Section End -->
+    <!-- Latest News Section End --> --}}
 
 
 

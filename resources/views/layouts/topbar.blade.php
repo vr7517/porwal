@@ -7,8 +7,8 @@
                             <li><a href="#">
                                 
 
-                                <i class="bi bi-clock"></i> <span>Working Hour:</span> 08:00am to 09:00pm</a></li>
-                            <li><a href="#"><i class="bi bi-envelope"></i> <span>Email:</span> info@domainname.com</a></li>
+                                <i class="bi bi-clock"></i> <span>Working Hour:</span> 09.00 am to 05.00 pm</a></li>
+                            <li><a href="#"><i class="bi bi-envelope"></i> <span>Email:</span> support@yourdomain.tld</a></li>
                         </ul>
                     </div>
                     <!-- Topbar Contact Information End -->
@@ -30,7 +30,7 @@
                         <!-- Topbar Contact Details Start -->
                         <div class="topbar-contact-info topbar-contact-details">
                             <ul>
-                                <li><a href="#"><span>Contact:</span> +123 (456) 789</a></li>
+                                <li><a href="#"><span>Contact:</span> +91 9800994949</a></li>
                             </ul>
                         </div>
                         <!-- Topbar Contact Details End -->

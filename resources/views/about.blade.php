@@ -1,10 +1,10 @@
 @extends('layouts.app')
-@section('page_title','About')
-    
+@section('page_title', 'About')
+
 @section('content')
 
     <!-- Page Header Start -->
-	<div class="page-header bg-section">
+    <div class="page-header bg-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -21,9 +21,9 @@
                     <!-- Page Header Box End -->
                 </div>
             </div>
-        </div>	
-	</div>
-	<!-- Page Header End -->
+        </div>
+    </div>
+    <!-- Page Header End -->
 
     <!-- About Us Section Start -->
     <div class="about-us">
@@ -36,7 +36,8 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp">about us</h3>
                             <h2 class="text-anime-style-3" data-cursor="-opaque">Professionals dedicated to your health</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Our team of skilled professionals is committed to providing personalized, compassionate care. With a focus.</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">Our team of skilled professionals is committed to
+                                providing personalized, compassionate care. With a focus.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -45,36 +46,41 @@
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp">
                                 <div class="icon-box">
-                                    <img src="images/icon-about-info-1.svg" alt="">
+
+                                    <img src="{{ asset('assets/images/icon-about-info-1.svg') }}" alt="">
+
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>patient-centered care</h3>
-                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures personalized.</p>
-                                </div>                                
+                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures
+                                        personalized.</p>
+                                </div>
                             </div>
                             <!-- About Info Item End -->
 
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp" data-wow-delay="0.25s">
                                 <div class="icon-box">
-                                    <img src="images/icon-about-info-2.svg" alt="">
+                                    <img src="{{ asset('assets/images/icon-about-info-2.svg') }}" alt="">
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>specialist doctors</h3>
-                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures personalized.</p>
-                                </div>                                
+                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures
+                                        personalized.</p>
+                                </div>
                             </div>
                             <!-- About Info Item End -->
 
                             <!-- About Info Item Start -->
                             <div class="about-info-item wow fadeInUp" data-wow-delay="0.5s">
                                 <div class="icon-box">
-                                    <img src="images/icon-about-info-3.svg" alt="">
+                                    <img src="{{ asset('assets/images/icon-about-info-3.svg') }}" alt="">
                                 </div>
                                 <div class="about-info-item-content">
                                     <h3>24 hours service</h3>
-                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures personalized.</p>
-                                </div>                                
+                                    <p>Putting you at the heart of everything we do. Our patient-centered approach ensures
+                                        personalized.</p>
+                                </div>
                             </div>
                             <!-- About Info Item End -->
                         </div>
@@ -82,7 +88,7 @@
 
                         <!-- About Us Button Start -->
                         <div class="about-us-btn wow fadeInUp" data-wow-delay="0.75s">
-                            <a href="contact.html" class="btn-default">contact us</a>
+                            <a href="about.html" class="btn-default">view more about us</a>
                         </div>
                         <!-- About Us Button End -->
                     </div>
@@ -95,7 +101,7 @@
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-1.jpg" alt="">
+                                <img src="{{ asset('assets/images/about-img-1.jpg') }}" alt="">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -103,23 +109,23 @@
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime">
-                                <img src="images/about-img-2.jpg" alt="">
-                                <h3>video call support</h3>
+                                <img src="{{ asset('assets/images/about-img-2.jpg') }}" alt="">
+                                <h3>Professionals Team</h3>
                             </figure>
                         </div>
                         <!-- About Image 2 End -->
-    
+
                         <!-- Company Timing Start -->
                         <div class="company-timing">
                             <h3>Opening hours</h3>
                             <ul>
                                 <li><span>Mon To Fri</span> 09:30 - 07:30</li>
-                                <li><span>Saturday</span> 10:30 - 5:00</li>
+                                <li><span>Saturday</span> Closed</li>
                                 <li><span>Sunday</span> Closed</li>
                             </ul>
 
                             <figure>
-                                <i class="fa-solid fa-clock"></i>
+                                <i class="glyphicon glyphicon-time"></i>
                             </figure>
                         </div>
                         <!-- Company Timing End -->
@@ -131,7 +137,7 @@
     </div>
     <!-- About Us Section End -->
 
-    <!-- Our Approach Section Start -->
+    -- <!-- Our Approach Section Start -->
     <div class="our-approach bg-section">
         <div class="container">
             <div class="row">
@@ -139,7 +145,7 @@
                     <!-- Our Approach Image Start -->
                     <div class="our-approach-img">
                         <figure class="image-anime reveal">
-                            <img src="images/our-approach-img.jpg" alt="">
+                            <img src="{{asset('assets/images/our-approch-img.jpg')}}" alt="">
                         </figure>
                     </div>
                     <!-- Our Approach Image End -->
@@ -151,8 +157,11 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">our approach</h3>
-                            <h2 class="text-anime-style-3" data-cursor="-opaque">Providing personalized healthcare</h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">We focus on personalized care to meet your unique needs, combining innovation and compassion for a truly patient-centered approach.</p>
+                            <h2 class="text-anime-style-3" data-cursor="-opaque">providing premium implants and medical gear.
+
+                            </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">We focus on personalized care to meet your unique
+                                needs, combining innovation and compassion for a truly patient-centered approach.</p>
                         </div>
                         <!-- Section Title End -->
 
@@ -162,26 +171,31 @@
                             <div class="vision-mission-nav">
                                 <ul class="nav nav-tabs" id="mvTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab" data-bs-target="#vision" type="button" role="tab" aria-selected="true"> our vision</button>
+                                        <button class="nav-link active" id="remodeling-tab" data-bs-toggle="tab"
+                                            data-bs-target="#vision" type="button" role="tab" aria-selected="true"> our
+                                            vision</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="installation-tab" data-bs-toggle="tab" data-bs-target="#mission" type="button" role="tab" aria-selected="false"> our mission</button>
+                                        <button class="nav-link" id="installation-tab" data-bs-toggle="tab"
+                                            data-bs-target="#mission" type="button" role="tab" aria-selected="false">
+                                            our mission</button>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value" type="button" role="tab" aria-selected="false">our value</button>
+                                        <button class="nav-link" id="value-tab" data-bs-toggle="tab" data-bs-target="#value"
+                                            type="button" role="tab" aria-selected="false">our value</button>
                                     </li>
                                 </ul>
                             </div>
                             <!-- Sidebar Mission Vision Nav End -->
-                            
+
                             <!-- Mission Vision Item Start -->
                             <div class="mission-vision-item tab-pane fade show active" id="vision" role="tabpanel">
                                 <div class="row align-items-center">
                                     <div class="col-md-6">
                                         <!-- Mission Vision Image Start -->
                                         <div class="vision-mission-img">
-                                            <figure  class="image-anime">
-                                                <img src="images/mission-image.jpg" alt="">
+                                            <figure class="image-anime">
+                                                <img src="{{asset('assets/images/about-2.png')}}" alt="sdjbshb">
                                             </figure>
                                         </div>
                                         <!-- Mission Vision Image End -->
@@ -203,63 +217,7 @@
                             </div>
                             <!-- Mission Vision Item End -->
 
-                            <!-- Mission Vision Item Start -->
-                            <div class="mission-vision-item tab-pane fade" id="mission" role="tabpanel">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <!-- Mission Vision Image Start -->
-                                        <div class="vision-mission-img">
-                                            <figure  class="image-anime">
-                                                <img src="images/mission-image.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <!-- Mission Vision Image End -->
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <!-- Mission Vision Content Start -->
-                                        <div class="vision-mission-content">
-                                            <ul>
-                                                <li>Quality healthcare for all.</li>
-                                                <li>Wellness through innovation.</li>
-                                                <li>Compassion at every step.</li>
-                                                <li>Building a healthier future.</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Mission Vision Content End -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Mission Vision Item End -->
-
-                            <!-- Mission Vision Item Start -->
-                            <div class="mission-vision-item tab-pane fade" id="value" role="tabpanel">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6">
-                                        <!-- Mission Vision Image Start -->
-                                        <div class="vision-mission-img">
-                                            <figure  class="image-anime">
-                                                <img src="images/mission-image.jpg" alt="">
-                                            </figure>
-                                        </div>
-                                        <!-- Mission Vision Image End -->
-                                    </div>
-
-                                    <div class="col-lg-6">
-                                        <!-- Mission Vision Content Start -->
-                                        <div class="vision-mission-content">
-                                            <ul>
-                                                <li>Quality healthcare for all.</li>
-                                                <li>Wellness through innovation.</li>
-                                                <li>Compassion at every step.</li>
-                                                <li>Building a healthier future.</li>
-                                            </ul>
-                                        </div>
-                                        <!-- Mission Vision Content End -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Mission Vision Item End -->
+                           
                         </div>
                         <!-- Mission Vision Box End -->
                     </div>
@@ -270,7 +228,7 @@
     </div>
     <!-- Our Approach Section End -->
 
-    <!-- Intro Video Section Start -->
+    {{-- <!-- Intro Video Section Start -->
     <div class="intro-video">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -359,9 +317,9 @@
             </div>
         </div>
     </div>
-    <!-- Intro Video Section End -->
+    <!-- Intro Video Section End --> --}}
 
-    <!-- We Work Section Start -->
+    {{-- <!-- We Work Section Start -->
     <div class="we-work bg-section">
         <div class="container">
             <div class="row section-row align-items-center">
@@ -457,9 +415,9 @@
             </div>
         </div>
     </div>
-    <!-- We Work Section End -->
+    <!-- We Work Section End --> --}}
 
-    <!-- Our Team Section Start -->
+    {{-- <!-- Our Team Section Start -->
     <div class="our-team about-team">
         <div class="container">
             <div class="row section-row">
@@ -621,9 +579,9 @@
             </div>
         </div>
     </div>
-    <!-- Our Team Section End -->
+    <!-- Our Team Section End --> --}}
 
-    <!-- Our Facility Section Start -->
+    {{-- <!-- Our Facility Section Start -->
     <div class="our-facility bg-section">
         <div class="container">
             <div class="row section-row">
@@ -694,16 +652,16 @@
             </div>
         </div>
     </div>
-    <!-- Our Facility Section End -->
+    <!-- Our Facility Section End --> --}}
 
     <!-- CTA Section Start -->
-    <div class="cta-section page-cta-section bg-section">
+    <div class="cta-section bg-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-3 col-6 order-lg-1 order-md-1 order-2">
                     <!-- CTA Box img 1 Start -->
                     <div class="cta-img-1">
-                        <img src="images/cta-img-1.png" alt="">
+                        <img src="{{ asset('assets/images/cta-img-1.png') }}" alt="">
                     </div>
                     <!-- CTA Box img 1 End -->
                 </div>
@@ -722,7 +680,7 @@
                             <a href="book-appointment.html" class="btn-default">Book a appointment now</a>
                         </div>
                         <!-- CTA Box Button End -->
-                         
+
                         <!-- CTA Box Text Start -->
                         <div class="cta-box-text wow fadeInUp" data-wow-delay="0.5s">
                             <p>It only <span>takes 2 minutes</span> to complete</p>
@@ -735,7 +693,7 @@
                 <div class="col-lg-4 col-md-3 col-6 order-lg-3 order-md-3 order-3">
                     <!-- CTA Box img 2 Start -->
                     <div class="cta-img-2">
-                        <img src="images/cta-img-2.png" alt="">
+                        <img src="{{ asset('assets/images/cta-img-2.png') }}" alt="">
                     </div>
                     <!-- CTA Box img 2 End -->
                 </div>
@@ -744,7 +702,7 @@
     </div>
     <!-- CTA Section End -->
 
-    <!-- Our Faqs Section Start -->
+    {{-- <!-- Our Faqs Section Start -->
     <div class="our-faqs bg-section">
         <div class="container">
             <div class="row">
@@ -871,163 +829,324 @@
             </div>
         </div>
     </div>
-    <!-- Our Faqs Section End -->
+    <!-- Our Faqs Section End --> --}}
 
-    <!-- Our Testimonial Start -->
-    <div class="our-testimonial about-us-testimonial">
-        <div class="container">
-            <div class="row section-row">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Testimonials</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Patient stories of care and recovery</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Discover inspiring stories of recovery and healing from those we've had the privilege to serve.</p>
-                    </div>
-                    <!-- Section Title End -->
+  <!-- Our Testimonial Start -->
+  <div class="our-testimonial">
+    <div class="container">
+        <div class="row section-row">
+            <div class="col-lg-12">
+                <!-- Section Title Start -->
+                <div class="section-title mw-100">
+                    <h3 class="wow fadeInUp">Testimonials</h3>
+                    <h2 class="text-anime-style-3" data-cursor="-opaque">Channel Partner of Pioneers In The Industry
+                    </h2>
+                    <p class="wow fadeInUp " data-wow-delay="0.25s">Porwal Group is a channel partner ,who works with
+                        well known medical devices and implants companies like Medtronic, DePuy Synthes (companies of
+                        gohnson gohnson), Baxter,, Terumo, Genworks, Pentax Medical, Belmont Medical, Natus,
+                        Biocomposites ,an extensive and high-quality range of medical devices and implants, supported by
+                        the state-of-the-art research, ingenuity, and dependability that these industry titans stand
+                        for. We are dedicated to working together to improve patient outcomes and raise the bar for
+                        healthcare standards. View our portfolio to feel the confidence that results from a
+                        collaboration based on quality and reliability.</p>
                 </div>
+                <!-- Section Title End -->
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Testimonial Slider Start -->
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Testimonial Slider Start -->
+                <div class="testimonial-slider">
+                    <div class="swiper ">
+                        <div class="swiper-wrapper" data-cursor-text="Drag">
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                    </div>
+
+                                    <div class="testimonial-content">
+                                        <p>My first appointment, but the staff was so welcoming. They took the time to
+                                            listen to my concerns and made sure I felt comfortable.</p>
+                                    </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-1.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
                                         </div>
-
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to listen to my concerns and made sure I felt comfortable.</p>
+                                        <div class="author-content">
+                                            <h3> TERUMO</h3>
+                                            <p>ANGIOPLASTY</p>
+                                            <ul>
+                                                <li>Stents</li>
+                                                <li>Catheters</li>
+                                                <li>Ballons</li>
+                                                <li>Assessories</li>
+                                            </ul>
                                         </div>
-
-                                        <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-1.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>Brooklyn simmons</h3>
-                                                <p>orthodontics</p>
-                                            </div>
-                                        </div>                                    
                                     </div>
                                 </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
-
-                                        <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>monika roy</h3>
-                                                <p>Dental hygienist</p>
-                                            </div>
-                                        </div>                                    
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-                                
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
-
-                                        <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-3.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>albert flores</h3>
-                                                <p>senior dentist</p>
-                                            </div>
-                                        </div>                                    
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="testimonial-item">
-                                        <div class="testimonial-rating">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-
-                                        <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time to listen to my concerns and made sure I felt comfortable.</p>
-                                        </div>
-
-                                        <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>            
-                                            <div class="author-content">
-                                                <h3>monika roy</h3>
-                                                <p>Dental hygienist</p>
-                                            </div>
-                                        </div>                                    
-                                    </div>
-                                </div>
-                                <!-- Testimonial Slide End -->
                             </div>
-                            <div class="testimonial-btn">
-                                <div class="testimonial-btn-prev"></div>
-                                <div class="testimonial-btn-next"></div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-2.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> MEDTRONIC</h3>
+                                            <p>MEUROVASCULAR PROCEDURE</p>
+                                            <ul>
+                                                <li>ANEURYSM COIL, GUIDEWIRE, MICRO CATHETERS</li>
+                                                <li>AVM EMBOLIZATION LIQUID, GUIDWIRE AND CAHETERS</li>
+                                                <li>MECHANICAL THROMBECTOMY STENT, ASPIRATION CATHETERS</li>
+                                                <li>FLOW DIVERTER</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <!-- Testimonial Slide End -->
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-3.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> MEDTRONIC</h3>
+                                            <p>LAPAROSCOPIC</p>
+                                            <ul>
+                                                <li>HERNIA MASHES</li>
+                                                <li>TRACKERS</li>
+                                                <li>BRIARTRIC PROCEDURE HAROWARE</li>
+                                                <li>SUTURE</li>
+                                                <li>STAPLERS</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-4.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> MEDTRONIC EV3</h3>
+                                            <p>CAROTID PROCEDURE</p>
+                                            <ul>
+                                                <li>CAROTID STENT</li>
+                                                <li>ACCESSORIES</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-5.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> BAXTER</h3>
+                                            <p>CAPD/APD</p>
+                                            <ul>
+                                                <li>DIALYSIS FLUID
+                                                </li>
+                                                <li>ALL ACCESSORIES</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-6.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> DEPUY SYNTHES</h3>
+                                            <p>TOTAL HIP REPLACEMENT</p>
+                                            <ul>
+                                                <li>DURALOC MOP</li>
+                                                <li>PINNACLE COP</li>
+                                                <li>SOLUTION</li>
+                                                <li>BIPOLAR</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                            <!-- Testimonial Slide Start -->
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+
+                                    {{-- <div class="testimonial-rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+
+                                <div class="testimonial-content">
+                                    <p>My first appointment, but the staff was so welcoming. They took the time to
+                                        listen to my concerns and made sure I felt comfortable.</p>
+                                </div> --}}
+
+                                    <div class="testimonial-footer ">
+                                        <div class="author-image">
+                                            <figure class="image-anime">
+                                                <img src="{{ asset('assets/images/partner-7.jpg') }}" alt=""
+                                                    width="80px">
+                                            </figure>
+                                        </div>
+                                        <div class="author-content">
+                                            <h3> TERUMO</h3>
+                                            <p>ANGIOPLASTY</p>
+                                            <ul>
+                                                <li>Stents</li>
+                                                <li>Catheters</li>
+                                                <li>Ballons</li>
+                                                <li>Assessories</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Testimonial Slide End -->
+
+                        </div>
+                        <div class="testimonial-btn">
+                            <div class="testimonial-btn-prev"></div>
+                            <div class="testimonial-btn-next"></div>
                         </div>
                     </div>
-                    <!-- Testimonial Slider End -->
                 </div>
+                <!-- Testimonial Slider End -->
             </div>
         </div>
     </div>
-    <!-- Our Testimonial End -->
+</div>
+<!-- Our Testimonial End -->
 
 
-   
+
 
 @endsection

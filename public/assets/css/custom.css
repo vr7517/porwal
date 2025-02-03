@@ -2389,6 +2389,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .our-testimonial{
+	align-items: center;
 	padding: 100px 0 50px;
 	background: url('../images/our-testimonial-bg.svg') no-repeat;
 	background-position: bottom center;
@@ -2396,65 +2397,84 @@ header.main-header .header-sticky.active{
 }
 
 .testimonial-slider .swiper-wrapper{
+	
 	cursor: none;
+	
 }
 
 .testimonial-item{
+	
+	height: 400px;
 	background: var(--white-color);
 	border: 1px solid var(--divider-color);
 	border-radius: 46px;
 	padding: 40px;
 	overflow: hidden;
-}
+	align-items: center;
+	justify-content: center;
+} 
 
-.testimonial-rating{
+/* .testimonial-rating{
 	margin-bottom: 15px;
-}
+} */
 
-.testimonial-rating i{
+/* .testimonial-rating i{
 	font-size: 16px;
 	color: var(--accent-color);
-}
+} */
 
-.testimonial-content{
+/* .testimonial-content{
 	border-bottom: 1px solid var(--divider-color);
 	margin-bottom: 30px;
 	padding-bottom: 30px;
-}
+} */
 
-.testimonial-content p{
+/* .testimonial-content p{
 	font-size: 20px;
 	margin: 0;
-}
+} */
 
 .testimonial-footer{
-	display: flex;
+	height: 300px;
+	width: 100%;
+	/* display: flex; */
 	align-items: center;
+	justify-content: center;
 }
 
-.author-image{
+/* .author-image{
+	
 	margin-right: 20px;
-}
+} */
 
 .author-image img{
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	align-items: center;
 	border-radius: 50%;
 }
 
 .author-content{
-	width: calc(100% - 80px);
+	width: calc(100-80);
+	align-items: center;
 }
 
 .author-content h3{
 	font-size: 20px;
 	text-transform: capitalize;
 	margin-bottom: 5px;
+	align-items: center;
 }
 
 .author-content p{
-	text-transform: capitalize;
-	margin: 0;
+
+	text-transform: lowercase;
+	
+}
+
+.author-content ul li{
+
+	text-transform: lowercase;
+	
 }
 .testimonial-btn{
 	display: flex;
@@ -2951,6 +2971,7 @@ header.main-header .header-sticky.active{
     background-position: bottom right;
     background-size: auto;
 	padding: 100px 0;
+	margin-bottom: 70px;
 }
 
 .our-approach-img figure{
